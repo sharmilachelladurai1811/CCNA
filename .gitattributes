@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep PDF files binary so Git does not normalize their contents.
+*.pdf binary
+*.PDF binary
